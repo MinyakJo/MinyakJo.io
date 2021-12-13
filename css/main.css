@@ -1,0 +1,136 @@
+* {
+	padding: 0;
+	margin: 0px;
+}
+li {
+	list-style-type: none;
+}
+.clear {
+	clear: both;
+}
+header {
+	width: 1000px;
+	height: 100px;
+	margin-top: 10px;
+	border: solid 1px #cccccc; 
+}
+#logo {
+	margin: 20px;
+	float: left;
+}
+#top {
+	float: right;
+	margin: 30px 20px 0 0;
+}
+nav {
+	width: 1000px;
+	height: 70px;
+	margin-top: 10px;
+	border: solid 1px #B04DFD; 
+}
+nav ul{
+	float: left;
+	margin: 20px 30px;
+}
+li {
+	list-style-type: none;
+}
+section {
+	float: center;
+	margin-top: 30px;
+	width:1024px;
+    height:768px;
+}
+aside {
+	float: left;
+	margin-top: 10px;
+	margin-left: 20px;
+	border: solid 1px #cccccc; 
+	padding-left: 25px;
+}
+aside li {
+	margin-bottom: 20px;
+}
+footer {
+	width: 995px;
+	height: 100px;
+	border-top: solid 1px #cccccc;
+	margin-top: 20px;
+	margin-left: 0px;
+	border: solid 1px #cccccc; 
+}
+#address {
+	float: left;
+	margin: 30px 0 0 20px;
+}
+#customer {
+	float: right;
+	margin: 30px 0 0 180px;
+	padding-right: 20px;
+}
+
+#page{
+	width: 1000px;
+	margin: auto;
+	border: solid 0px #cccccc;
+}
+
+.box {
+    border-style: solid;
+    border-width: 1px;
+    display: block;
+    background-color: #B04DFD;
+    width: 1000px;
+    height: 70px;
+    -webkit-transition:width 2s, height 2s, background-color 2s, -webkit-transform 2s;
+    transition:width 2s, height 2s, background-color 2s, transform 2s;
+}
+.box:hover {
+    width:1000px;
+    height:200px;
+    background-color: white
+}
+
+.menuBtn {
+  position: relative;
+  transition-property: color;
+  transition-duration: 4s;
+  transition-timing-function: ease-out;
+  text-align: left;
+  color: white;
+  font-family: sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.menuBtn:hover {
+  position: relative;
+  transition-property: color;
+  transition-duration: 4s;
+  transition-timing-function: ease-out;
+  color:#B04DFD;
+}
+
+.menuItem {
+	float:none;
+	position: relative;
+  	transition-property: color;
+  	transition-duration: 4s;
+  	transition-timing-function: ease-out;
+  	text-align: left;
+  	color: white;
+  	font-family: sans-serif;
+  	font-size: 10px;
+  	text-decoration: none;
+  	margin-top: 40px;
+  	opacity: 0;
+}
+
+.menuBtn:hover .menuItem {
+  position: relative;
+  transition-property: color;
+  transition-duration: 4s;
+  transition-timing-function: ease-out;
+  color:#B04DFD;
+  opacity: 1;
+}
