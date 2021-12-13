@@ -52,12 +52,15 @@ aside li {
 	margin-bottom: 20px;
 }
 footer {
-	width: 995px;
-	height: 100px;
-	border-top: solid 1px #cccccc;
-	margin-top: 20px;
-	margin-left: 0px;
-	border: solid 1px #cccccc; 
+	border-color: #B04DFD;
+	border-style: solid;
+    	border-width: 1px;
+    	display: block;
+    	background-color: #B04DFD;
+    	width: 1000px;
+    	height: 170px;
+    	margin-top: 100px;
+    	color: white; 
 }
 #address {
 	float: left;
@@ -133,4 +136,11 @@ footer {
   transition-timing-function: ease-out;
   color:#B04DFD;
   opacity: 1;
+}
+
+#sliderTit {
+	margin-top: 80px;
+	float: left;
+	font-family: sans-serif;
+  	font-size: 30px;
 }
