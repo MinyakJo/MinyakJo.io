@@ -14,8 +14,12 @@ header {
 	margin-top: 10px;
 	border: solid 1px #cccccc; 
 }
+a{
+  text-decoration:none;
+}
 #logo {
 	margin: 20px;
+  color: black;
 	float: left;
 }
 #top {
@@ -97,7 +101,7 @@ footer {
 .menuBtn {
   position: relative;
   transition-property: color;
-  transition-duration: 4s;
+  transition-duration: 2s;
   transition-timing-function: ease-out;
   text-align: left;
   color: white;
@@ -109,7 +113,7 @@ footer {
 .menuBtn:hover {
   position: relative;
   transition-property: color;
-  transition-duration: 4s;
+  transition-duration: 2s;
   transition-timing-function: ease-out;
   color:#B04DFD;
 }
@@ -117,25 +121,78 @@ footer {
 .menuItem {
 	float:none;
 	position: relative;
-  	transition-property: color;
-  	transition-duration: 4s;
-  	transition-timing-function: ease-out;
-  	text-align: left;
-  	color: white;
-  	font-family: sans-serif;
-  	font-size: 10px;
-  	text-decoration: none;
-  	margin-top: 40px;
-  	opacity: 0;
+  transition-property: color;
+  transition-duration: 2s;
+  transition-timing-function: ease-out;
+  text-align: left;
+  color: white;
+  font-family: sans-serif;
+  font-size: 10px;
+  text-decoration: none;
+  margin-top: 40px;
+  opacity: 0;
 }
 
 .menuBtn:hover .menuItem {
   position: relative;
   transition-property: color;
-  transition-duration: 4s;
+  transition-duration: 2s;
   transition-timing-function: ease-out;
   color:#B04DFD;
   opacity: 1;
+}
+
+.menuBtnLink{
+  position: relative;
+  transition-property: color;
+  transition-duration: 2s;
+  transition-timing-function: ease-out;
+  text-align: left;
+  color: white;
+  font-family: sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.menuBtnLink:hover {
+  position: relative;
+  transition-property: color;
+  transition-duration: 2s;
+  transition-timing-function: ease-out;
+  color:#B04DFD;
+}
+
+.menuBtnLink:hover .menuItemLink {
+  position: relative;
+  transition-property: color;
+  transition-duration: 2s;
+  transition-timing-function: ease-out;
+  color:#B04DFD;
+  opacity: 1;
+}
+
+.menuBtn:hover .menuItemLink {
+  position: relative;
+  transition-property: color;
+  transition-duration: 2s;
+  transition-timing-function: ease-out;
+  color:#B04DFD;
+  opacity: 1;
+}
+
+.menuItemLink {
+  float:none;
+  position: relative;
+  transition-property: color;
+  transition-duration: 2s;
+  transition-timing-function: ease-out;
+  text-align: left;
+  color: white;
+  font-family: sans-serif;
+  font-size: 10px;
+  text-decoration: none;
+  margin-top: 40px;
+  opacity: 0;
 }
 
 #sliderTit {
