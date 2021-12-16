@@ -195,7 +195,7 @@ footer {
   opacity: 0;
 }
 
-#sliderTit {
+.slideTit {
 	margin-top: 80px;
 	float: left;
 	font-family: sans-serif;
